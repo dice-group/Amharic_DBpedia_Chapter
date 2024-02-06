@@ -1,6 +1,6 @@
 
 ### Resources
-- [Dbpedia Extraction Framework][https://github.com/dbpedia/extraction-framework
+- [Dbpedia Extraction Framework][https://github.com/dbpedia/extraction-framework]
 - [Amharic Wikipedia](https://am.wikipedia.org)
 - [Towards Arabic DBpedia](https://www.researchgate.net/publication/260631680_A_Step_towards_the_Arabic_DBpedia)  
 - [Toward Recipes for Arabic DBpedia](https://dl.acm.org/doi/pdf/10.1145/2539150.2539199)
