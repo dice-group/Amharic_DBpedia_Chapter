@@ -8,7 +8,7 @@
 - [The German DBpedia: A Sense Repository for Linking Entities](https://link.springer.com/chapter/10.1007/978-3-642-28249-2_17)
 - [The DBpedia Ontology](dbpedia.org/resources/ontology/)
 - [DBpedia Mapping Guideline](https://mappings.dbpedia.org/index.php/Mapping_Guide)
-- [How to edit the DBpedia Ontology]https://mappings.dbpedia.org/index.php/How_to_edit_the_DBpedia_Ontology
+- [How to edit the DBpedia Ontology](https://mappings.dbpedia.org/index.php/How_to_edit_the_DBpedia_Ontology)
 
 
 
