@@ -13,7 +13,7 @@
 
 
 ### To Do
-1. Extract properties from Wikipedia based on the [Dbpedia Extraction Framework Quick Start Guideline][http://dev.dbpedia.org/Extraction_QuickStart]
+1. Extract properties from Wikipedia based on the quick start guide line [http://dev.dbpedia.org/Extraction_QuickStart]
 2. Read the documentation of the extraction [Dbpedia Extraction Framework](https://github.com/dbpedia/extraction-framework)
 3. Get familiar with SPARQL on the DBpedia endpoint https://dbpedia.org/sparql
 4. Run a local DBpedia Virtuoso endpoint [https://github.com/dbpedia/virtuoso-sparql-endpoint-quickstart]
