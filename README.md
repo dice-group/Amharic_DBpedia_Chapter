@@ -43,6 +43,21 @@ The primary goal of this project is to create an Amharic DBpedia chapter to be r
 5. Query the extracted properties using the locally installed Virtuoso endpoint
 6. Build  mapping for Amharic property based on the guideline [https://mappings.dbpedia.org/index.php/Mapping_Guide]
 
+## Project Size
+
+**Total Hours:** 350 hrs
+
+## Mentors
+
+- Hizkiel Alemayehu
+- Tilahun Tafa
+- Ricardo Usbeck
+
+## Contributor
+
+- Meti Bayissa
+
+
 ## Notes
 1. First meeting for Amharic DBpedia Chapter [https://docs.google.com/document/d/1x_Ge1Htb8dp91c5IHmnhSe2lS43R7F6V2nPRroPW0N8/edit?usp=sharing]
  
