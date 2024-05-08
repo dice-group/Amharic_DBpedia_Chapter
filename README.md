@@ -48,10 +48,11 @@ The primary goal of this project is to create an Amharic DBpedia chapter to be r
 **Total Hours:** 350 hrs
 
 ## Mentors
-
-- Hizkiel Alemayehu
-- Tilahun Tafa
 - Ricardo Usbeck
+- Tilahun Tafa
+- Hizkiel Alemayehu
+
+
 
 ## Contributor
 
