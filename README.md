@@ -19,5 +19,8 @@
 4. Run a local DBpedia Virtuoso endpoint [https://github.com/dbpedia/virtuoso-sparql-endpoint-quickstart]
 5. Query the extracted properties using the locally installed Virtuoso endpoint
 6. Build  mapping for Amharic property based on the guideline [https://mappings.dbpedia.org/index.php/Mapping_Guide]
+
+#### Notes
+1. First meeting for Amharic DBpedia Chapter [https://docs.google.com/document/d/1x_Ge1Htb8dp91c5IHmnhSe2lS43R7F6V2nPRroPW0N8/edit?usp=sharing]
  
    
