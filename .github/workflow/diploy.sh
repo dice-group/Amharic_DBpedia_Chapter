@@ -26,8 +26,4 @@ jobs:
           docker cp angular-container:/app/dist/DBpedia-Amharic-Chapter ./dist
           docker rm -f angular-container
 
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: .doc/dist/DBpedia-Amharic-Chapter
+     
