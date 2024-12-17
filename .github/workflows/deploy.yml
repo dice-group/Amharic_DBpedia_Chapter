@@ -1,22 +1,29 @@
 #!/bin/bash
 
+set -e  # Exit on error
+
 # Step 1: Build Docker Image
-docker build -t Amharic_DBpedia_Chapter .
+echo "Building Docker image..."
+docker build -t amharic_dbpedia_chapter .
 
 # Step 2: Run Container
-container_id=$(docker run -d my-angular-app)
+echo "Running Docker container..."
+container_id=$(docker run -d amharic_dbpedia_chapter)
 
-# Step 3: Extract Files
-docker cp $container_id:/app/docs/dist/Amharic_DBpedia_Chapter ./dist
+# Step 3: Extract Built Files
+echo "Extracting built files from container..."
+docker cp $container_id:/app/docs/dist/Amharic_DBpedia_Chapter ./docs/dist/Amharic_DBpedia_Chapter
 
 # Step 4: Stop and Remove Container
+echo "Stopping and removing container..."
 docker rm -f $container_id
 
-# Step 5: Push to GitHub Pages
-cd dist/<project-name>
-git init
-git remote add origin https://github.com/dice-group/Amharic_DBpedia_Chapter.git
-git branch -M main
-git add .
+# Step 5: Commit and Push Files to main Branch
+echo "Pushing built files to the main branch..."
+
+# Add built files to the main branch
+git add ./docs/dist/Amharic_DBpedia_Chapter
 git commit -m "Deploy Amharic_DBpedia_Chapter to GitHub Pages"
-git push -u origin main:gh-pages
+git push origin main
+
+echo "Deployment to main branch complete!"
