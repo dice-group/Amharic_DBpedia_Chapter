@@ -2,28 +2,28 @@
 
 set -e  # Exit on error
 
-# Step 1: Build Docker Image
 echo "Building Docker image..."
-docker build -t amharic_dbpedia_chapter .
+docker build --progress=plain -t amharic_dbpedia_chapter .
 
-# Step 2: Run Container
 echo "Running Docker container..."
 container_id=$(docker run -d amharic_dbpedia_chapter)
+trap 'echo "Cleaning up..."; docker rm -f $container_id > /dev/null 2>&1' EXIT
 
-# Step 3: Extract Built Files
 echo "Extracting built files from container..."
-docker cp $container_id:/app/docs/dist/Amharic_DBpedia_Chapter ./docs/dist/Amharic_DBpedia_Chapter
+mkdir -p ./docs/Amharic_DBpedia_Chapter
+docker cp $container_id:/app/Amharic_DBpedia_Chapter ./docs/Amharic_DBpedia_Chapter
 
-# Step 4: Stop and Remove Container
 echo "Stopping and removing container..."
-docker rm -f $container_id
+docker rm -f $container_id > /dev/null 2>&1
 
-# Step 5: Commit and Push Files to main Branch
 echo "Pushing built files to the main branch..."
 
-# Add built files to the main branch
-git add ./docs/dist/Amharic_DBpedia_Chapter
-git commit -m "Deploy Amharic_DBpedia_Chapter to GitHub Pages"
-git push origin main
-
-echo "Deployment to main branch complete!"
+# Add files to git and commit if there are changes
+git add ./docs/Amharic_DBpedia_Chapter
+if ! git diff --cached --exit-code > /dev/null; then
+    git commit -m "Deploy Amharic_DBpedia_Chapter to GitHub Pages"
+    git push origin main
+    echo "Deployment to main branch complete!"
+else
+    echo "No changes to commit."
+fi
