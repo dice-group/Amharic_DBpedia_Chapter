@@ -36,7 +36,7 @@ The primary goal of this project is to create an Amharic DBpedia chapter to be r
 
 
 ## To Do
-1. Extract properties from Wikipedia based on the quick start guide line [http://dev.dbpedia.org/Extraction_QuickStart]
+1. Extract properties from Wikipedia based on the quick start guideline [http://dev.dbpedia.org/Extraction_QuickStart]
 2. Read the documentation of the extraction [Dbpedia Extraction Framework](https://github.com/dbpedia/extraction-framework)
 3. Get familiar with SPARQL on the DBpedia endpoint https://dbpedia.org/sparql
 4. Run a local DBpedia Virtuoso endpoint [https://github.com/dbpedia/virtuoso-sparql-endpoint-quickstart]
