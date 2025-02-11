@@ -49,7 +49,7 @@ The primary goal of this project is to create an Amharic DBpedia chapter to be r
 
 ## Mentors
 - Ricardo Usbeck
-- Tilahun Tafa
+- Tilahun Abedissa Taffa
 - Hizkiel Alemayehu
 
 
