@@ -55,8 +55,5 @@ The primary goal of this project is to create an Amharic DBpedia chapter to be r
 
 
 
-
-## Notes
-1. First meeting for Amharic DBpedia Chapter [https://docs.google.com/document/d/1x_Ge1Htb8dp91c5IHmnhSe2lS43R7F6V2nPRroPW0N8/edit?usp=sharing]
  
    
