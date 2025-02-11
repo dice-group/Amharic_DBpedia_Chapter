@@ -47,6 +47,6 @@ The primary goal of this project is to extend the existing Amharic DBpedia chapt
 **Total Hours:** 350 hrs
 
 ## Mentors
-- Ricardo Usbeck [https://www.linkedin.com/in/ricardo-usbeck/?originalSubdomain=de]
-- Tilahun Abedissa Taffa [https://www.linkedin.com/in/tilahun-abedissa-47372a9a/?originalSubdomain=et]
-- Hizkiel Alemayehu [https://www.linkedin.com/in/hizkiel-mitiku-alemayehu-97306010b/]
+- [Ricardo Usbeck](https://www.linkedin.com/in/ricardo-usbeck/?originalSubdomain=de)
+- [Tilahun Abedissa Taffa](https://www.linkedin.com/in/tilahun-abedissa-47372a9a/?originalSubdomain=et)
+- [Hizkiel Alemayehu](https://www.linkedin.com/in/hizkiel-mitiku-alemayehu-97306010b/)
