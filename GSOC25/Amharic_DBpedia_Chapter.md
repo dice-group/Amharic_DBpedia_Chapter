@@ -6,7 +6,7 @@ DBpedia is a collaborative initiative focused on extracting structured informati
 
 ## Goal
 
-The primary goal of this project is to create an Amharic DBpedia chapter to be reached at [Amharic DBpedia](https://dice-group.github.io/Amharic_DBpedia_Chapter/):
+The primary goal of this project is to extend the existing Amharic DBpedia chapter at [Amharic DBpedia](https://dice-group.github.io/Amharic_DBpedia_Chapter/):
 
 1. Extend the Amharic DBpedia chapter in the DBpedia knowledge graph with data from Amharic Wikipedia.
 2. Extend the DBpedia extraction framework to extract citations, disambiguation, personal data, topical concepts, anchor text, and shared resources from Amharic Wikipedia.
