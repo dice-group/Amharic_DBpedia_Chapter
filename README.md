@@ -54,9 +54,6 @@ The primary goal of this project is to create an Amharic DBpedia chapter to be r
 
 
 
-## Contributor
-
-- Meti Bayissa
 
 
 ## Notes
